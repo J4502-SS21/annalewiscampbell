@@ -37,7 +37,7 @@ nav a {
   color: #4FFFFFF;
   text-align: center;
   text-decoration: none;
-  width: 100%, auto;
+  width: 100%;
   display: inline-block;
 }
 img {
@@ -55,6 +55,6 @@ ul {
 section {
   background: #01C198;
   color: #BFBFBF;
-  padding: 20px;
   display: inline-block;
+  width: 100%
 }
