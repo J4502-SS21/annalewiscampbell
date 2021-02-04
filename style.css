@@ -10,7 +10,9 @@ body {
 h1 {
   font-size: 34px;
   font-family:"Barlow", "Arial", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
+  display: inline-block;
+  background: white;
 }
 h2 {
   font-size: 24px;
@@ -25,16 +27,18 @@ p {
   margin: 8px auto;
   font-family: "Barlow", serif;
   color: #000000;
+  text-decoration: none;
 }
 nav a {
   background-color: #01C198;
   font-family: "Barlow", "Arial", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 16pt;
   color: #4FFFFFF;
   text-align: center;
   text-decoration: none;
   width: 100%, auto;
+  display: inline-block;
 }
 img {
   border: 0;
@@ -52,4 +56,5 @@ section {
   background: #01C198;
   color: #BFBFBF;
   padding: 20px;
+  display: inline-block;
 }
