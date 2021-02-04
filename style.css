@@ -35,9 +35,9 @@ nav a {
 img {
   border: 0;
   margin: 40px;
-  width: 75%;
+  width: 50%;
   min-width: 150 px;
-  max-width: 350 px;
+  max-width: 250 px;
 }
 ul {
   list-style-type: none;
