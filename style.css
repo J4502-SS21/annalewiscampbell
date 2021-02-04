@@ -69,3 +69,7 @@ a {
 a: visited {
 
 }
+li {
+  border: black;
+  border-width: medium;
+}
