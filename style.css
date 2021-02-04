@@ -9,6 +9,8 @@ body {
 }
 h1 {
   font-size: 34px;
+  font-family:"Barlow", "Arial", sans-serif;
+  font-weight: 400;
 }
 h2 {
   font-size: 24px;
