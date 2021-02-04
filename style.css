@@ -23,6 +23,7 @@ p {
   margin: 8px auto;
   font-family: "Barlow", serif;
   color: #0D5F5E;
+  text-decoration: none;
 }
 nav a {
   background-color: #01C198;
