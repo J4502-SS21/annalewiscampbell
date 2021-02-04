@@ -42,6 +42,7 @@ img {
   min-width: 150 px;
   max-width: 250 px;
   max-height: 150 px;
+  height:50%;
 }
 ul {
   list-style-type: none;
