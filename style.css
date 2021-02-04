@@ -1,11 +1,28 @@
 body {
   margin: 0;
-  width: 100%;
+  width:100%;
   text-align: center;
   background-color: #BFBFBF;
   font-size: 14pt;
   font-family: "Merriwether", "Times New Roman", serif;
   font-weight: 400;
+}
+h1 {
+  font-size: 34px;
+}
+h2 {
+  font-size: 24px;
+}
+h1, h2 {
+  font-weight: 700;
+  padding: 0px;
+  margin: 0px;
+}
+p {
+  font-size: 14pt;
+  margin: 8px auto;
+  font-family: "Barlow", serif;
+  color: #0D5F5E;
 }
 nav a {
   background-color: #01C198;
@@ -15,6 +32,18 @@ nav a {
   text-align: center;
   text-decoration: none;
 }
+img {
+  border: 0;
+  margin: 40px;
+  width: 75%;
+  min-width: 150 px;
+  max-width: 350 px;
+}
 ul {
   list-style-type: none;
+}
+section {
+  background: #01C198;
+  color: #BFBFBF;
+  padding: 20px;
 }
