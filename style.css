@@ -17,6 +17,7 @@ h1 {
 }
 h2 {
   font-size: 24px;
+  color: black;
 }
 h1, h2 {
   font-weight: 700;
@@ -40,6 +41,8 @@ nav a {
   text-decoration: none;
   width: 100%;
   display: inline-block;
+  border: black;
+  border-width: thin;
 }
 img {
   border: 0;
