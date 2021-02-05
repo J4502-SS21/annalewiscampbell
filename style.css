@@ -32,7 +32,6 @@ p {
   text-decoration: none;
 }
 nav a {
-  background-color: #01C198;
   font-family: "Barlow", "Arial", sans-serif;
   font-weight: 400;
   font-size: 16pt;
@@ -72,4 +71,6 @@ a: visited {
 }
 li {
   border: 2px solid black;
+  padding: 10px 0;
+  background-color: #01C198;
 }
