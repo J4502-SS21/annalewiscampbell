@@ -71,6 +71,5 @@ a: visited {
 
 }
 li {
-  border: black;
-  border-width: medium;
+  border: 2px solid black;
 }
