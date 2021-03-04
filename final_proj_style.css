@@ -32,13 +32,14 @@ nav a {
   display: inline-block;
 }
 img {
-  border: 5 px;
+  border: 20 px;
   border-color: #086375;
   width: 25%;
   min-width: 150 px;
   max-width: 250 px;
   max-height: 150 px;
   height:50%;
+  margin-left: 50 px;
 }
 ul {
   margin:0;
