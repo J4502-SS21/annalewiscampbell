@@ -1,0 +1,47 @@
+body {
+  width: 100%;
+  text-align: center;
+  background-color: #C5C5BE;
+  font-size: 18px;
+  font-family: "Catamaran",sans-serif;
+  font-weight: 400;
+}
+h1 {
+  font-size: 40px;
+  font-family:"Hammersmith One", serif;
+  font-weight: 400;
+  color: #522A00
+}
+h2 {
+  font-size: 28px;
+  color: #522A00;
+}
+p {
+  font-size: 18px;
+  font-family: "Catamaran", serif;
+  color: #522A00;
+}
+nav a {
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #C5C5BE;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  display: inline-block;
+}
+img {
+  border: 5 px;
+  border-color: #086375;
+  width: 25%;
+  min-width: 150 px;
+  max-width: 250 px;
+  max-height: 150 px;
+  height:50%;
+}
+ul {
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
