@@ -32,27 +32,33 @@ nav a {
   width: 100%;
   display: inline-block;
 }
-img {
-  border: 20 px;
+.anna {
+  border-width: 20 px;
   border-color: #086375;
   width: 25%;
-  min-width: 150 px;
-  max-width: 250 px;
+  min-width: 100 px;
+  max-width: 150 px;
   max-height: 150 px;
-  height:50%;
-  margin-left: 50 px;
+  float: left;
+}
+.woodpic {
+  border-width: 20 px;
+  border-color: #086375;
+  width: 25%;
+  float: right;
 }
 ul {
   margin:0;
   padding:0;
   list-style-type: none;
 }
+.menu {
+  display: flex;
+  flex-direction: column;
+}
 .menu-item {
   border: 3px solid white;
   display: flex;
-}
-.menu {
-  display: flex;
-  flex-direction: row;
+  background-color: #086375;
   width:20%
 }
