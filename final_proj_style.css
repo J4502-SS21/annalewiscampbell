@@ -53,6 +53,6 @@ ul {
 }
 .menu {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width:20%
 }
