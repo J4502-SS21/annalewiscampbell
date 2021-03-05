@@ -10,7 +10,7 @@ h1 {
   font-size: 40px;
   font-family:"Hammersmith One", serif;
   font-weight: 400;
-  color: #522A00
+  color: #45194D
 }
 h2 {
   font-size: 28px;
@@ -25,7 +25,8 @@ nav a {
   font-family: "Hammersmith One", sans-serif;
   font-weight: 400;
   font-size: 40px;
-  color: white;
+  color: #C5C5BE;
+  background-color: #086375;
   text-align: center;
   text-decoration: none;
   width: 100%;
@@ -45,4 +46,16 @@ ul {
   margin:0;
   padding:0;
   list-style-type: none;
+}
+.menu-item {
+  border: 3px solid white;
+  display: flex;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  width:20%
+}
+
+
 }
