@@ -67,7 +67,7 @@ nav a {
 .pictextblock {
   display: flex;
   justify-content: center;
-  max-width: 700px;
+  max-width: 800px;
   width: 80%;
   box-sizing: border-box;
   margin: auto;
@@ -75,7 +75,7 @@ nav a {
   gap: 30px;
 }
 .pictextblock img {
-  width: 20%;
+  width: 80%;
   height: auto;
   min-width: 300px;
 }
@@ -105,22 +105,24 @@ ul {
   width:20%
 }
 .photoleft{
-  float: left;
   margin-right: 20px;
-  width: 30%;
+  width: 60%;
   margin-top: 70px;
   margin-bottom: 70px;
   border: solid #086375;
   border-width: thick;
 }
 .photoright{
-  float: right;
   margin-left: 20px;
-  width: 30%;
+  width: 60%;
   margin-top: 70px;
   margin-bottom: 70px;
   border: solid #086375;
   border-width: thick;
+}
+.dumping {
+  transform: rotate(140deg);
+    width: 500px;
 }
 hr {
   height: 5px;
