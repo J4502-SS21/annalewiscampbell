@@ -71,10 +71,13 @@ nav a {
   width: 80%;
   box-sizing: border-box;
   margin: auto;
+  align-items: center;
+  gap: 30px;
 }
 .pictextblock img {
   width: 20%;
   height: auto;
+  min-width: 300px;
 }
 .woodpic {
   border-color: #086375;
