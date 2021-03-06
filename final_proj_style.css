@@ -79,6 +79,7 @@ nav a {
   height: auto;
   min-width: 300px;
 }
+
 .woodpic {
   border-color: #086375;
   width: 25%;
@@ -123,6 +124,23 @@ ul {
 .dumping {
   transform: rotate(140deg);
     width: 500px;
+  display: flex;
+  margin-left: 50px;
+}
+.sanderblock {
+  width: 400px;
+  text-align: center;
+  transform: rotate(-20deg);
+  margin-left: 500px;
+}
+.fileblock {
+  width: 400px;
+  text-align: center;
+  transform: rotate(20deg);
+  margin-left: 400px;
+}
+.fileblock img {
+  width: 250px;
 }
 hr {
   height: 5px;
