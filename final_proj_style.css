@@ -29,18 +29,16 @@ h2 {
   color: #522A00;
   text-align: left;
 }
-.texttoleft{
+.pictextblock p {
   font-size: 18px;
-  max-width: 500px;
   font-family: "architects daughter", serif;
   color: #522A00;
+  width: calc(80% - 20px);
+}
+.texttoleft{
   text-align: left;
 }
 .texttoright {
-  font-size: 18px;
-  max-width: 500px;
-  font-family: "architects daughter", serif;
-  color: #522A00;
   text-align: right;
 }
 p {
@@ -61,14 +59,22 @@ nav a {
 }
 .anna {
   width: 20%;
-  min-width: 100 px;
-  max-width: 150 px;
-  max-height: 150 px;
-  float: left;
   margin-right: 20px;
-  margin-left: 150px;
   border: solid #086375;
   border-width: thick;
+  height: auto;
+}
+.pictextblock {
+  display: flex;
+  justify-content: center;
+  max-width: 700px;
+  width: 80%;
+  box-sizing: border-box;
+  margin: auto;
+}
+.pictextblock img {
+  width: 20%;
+  height: auto;
 }
 .woodpic {
   border-color: #086375;
@@ -86,7 +92,8 @@ ul {
 }
 .menu {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  width: 100%;
 }
 .menu-item {
   border: 3px solid white;
@@ -116,4 +123,12 @@ hr {
   height: 5px;
   background-color: #45194D;
   color: #45194D
+}
+@media (max-width: 675px) {
+.menu {
+  flex-direction: column;
+}
+.menu-item {
+  width: 100%;
+}
 }
