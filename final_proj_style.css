@@ -169,5 +169,30 @@ hr {
 .pictextblock {
   flex-direction: column;
 }
+.sanderblock {
+  margin: 10px 10px;
+  width: 25%;
+  transform:rotate(0deg);
+}
+.fileblock {
+  margin: auto;
+  width: 25%;
+  transform:rotate(0deg);
+}
+.pocketknifeblock {
+  margin: 10px 10px;
+  width: 25%;
+  transform:rotate(0deg);
+}
+.copingsawblock{
+  margin: 0;
+  width: 45%;
+  transform:rotate(0deg);
+}
+.dumping {
+  margin: auto;
+  width: 45%;
+  transform: rotate(150deg)
+}
 }
 }
