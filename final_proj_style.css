@@ -18,13 +18,13 @@ h2 {
   color: #522A00;
 }
 .h2right {
-  padding-top: 200px;
+  padding-top: 150px;
   font-size: 28px;
   color: #522A00;
   text-align: right;
 }
 .h2left {
-  padding-top: 200px;
+  padding-top: 150px;
   font-size: 28px;
   color: #522A00;
   text-align: left;
@@ -125,7 +125,7 @@ ul {
   transform: rotate(140deg);
     width: 500px;
   display: flex;
-  margin-left: 50px;
+  margin-left: 150px;
 }
 .sanderblock {
   width: 400px;
@@ -142,6 +142,18 @@ ul {
 .fileblock img {
   width: 250px;
 }
+.pocketknifeblock {
+  width: 400px;
+  text-align: center;
+  transform: rotate(-40deg)
+  margin: auto;
+}
+.copingsawblock {
+  width: 400px;
+  text-align: center;
+  transform: rotate(40deg);
+  margin: auto;
+}
 hr {
   height: 5px;
   background-color: #45194D;
@@ -153,5 +165,9 @@ hr {
 }
 .menu-item {
   width: 100%;
+}
+.pictextblock {
+  flex-direction: column;
+}
 }
 }
