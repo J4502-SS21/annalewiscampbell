@@ -34,9 +34,6 @@ p {
 img {
   border: 0;
   width: 25%;
-  min-width: 150px;
-  max-width: 250px;
-  max-height: 150px;
   height:50%;
 }
 nav a {
