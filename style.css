@@ -69,7 +69,20 @@ li {
   background-color: #0f5c5c;
   display: block;
 }
+#menu_trigger {
+  display: none;
+
+}
 @media screen and (max-width: 600px) {
+  #menu_trigger {
+    display:block;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+  }
+  #menu_nav {
+    display: none;
+  }
   .menu {
     flex-direction: column;
   }
