@@ -1,5 +1,5 @@
 body {
-  margin: 0px;
+  margin: 0px, auto;
   width: 100%;
   text-align: center;
   background-color: #BFBFBF;
@@ -28,13 +28,15 @@ p {
   font-size: 14pt;
   margin: auto;
   font-family: "Barlow", serif;
-  color: white;
   text-decoration: none;
+  width: 35%;
+  margin-bottom: 20px;
 }
-img {
+.anna {
   border: 0;
   width: 25%;
   height:50%;
+  margin-top: 50px;
 }
 nav a {
   font-family: "Barlow", "Arial", sans-serif;
@@ -59,6 +61,9 @@ section {
   display: block;
   width: 100%
 }
+section p{
+  color: white;
+}
 a {
   text-decoration: none;
   color: white;
@@ -68,6 +73,10 @@ li {
   padding: 20px 20px;
   background-color: #0f5c5c;
   display: block;
+}
+.resumepage{
+  width: 600px;
+  margin:50px;
 }
 #menu_trigger {
   display: none;
