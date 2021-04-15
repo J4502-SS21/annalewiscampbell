@@ -38,6 +38,10 @@ p {
   height:50%;
   margin-top: 50px;
 }
+.resumedata {
+  text-align: left;
+  width: 25%;
+}
 nav a {
   font-family: "Barlow", "Arial", sans-serif;
   font-weight: 400;
