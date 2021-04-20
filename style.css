@@ -82,13 +82,13 @@ section {
 section p{
   color: white;
 }
-.moreclips {
-  color: #0f5c5c;
-  text-decoration-line: underline;
-}
 a {
   text-decoration: none;
   color: white;
+}
+.moreclips {
+  background-color: #0f5c5c;
+  text-decoration-line: underline;
 }
 li {
   border: 2px solid black;
