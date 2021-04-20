@@ -28,7 +28,6 @@ p {
   font-size: 14pt;
   margin: auto;
   font-family: "Barlow", serif;
-  text-decoration: none;
   width: 35%;
   margin-bottom: 20px;
 }
@@ -58,12 +57,27 @@ nav a {
   flex-direction: row;
   width: 80%;
   justify-content: space-around;
+
 }
 section {
   background: #0f5c5c;
   color: #BFBFBF;
   display: block;
   width: 100%
+}
+.feralhogs {
+  display: flex;
+  width: 45%;
+  align-items: center;
+  margin:auto;
+  text-decoration: underline;
+}
+.farming {
+  display: flex;
+  width: 45%;
+  align-items: center;
+  margin:auto;
+  text-decoration: underline;
 }
 section p{
   color: white;
