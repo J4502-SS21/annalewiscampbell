@@ -17,7 +17,7 @@ h1 {
 }
 h2 {
   font-size: 26px;
-  color: white;
+  color: #0f5c5c;
 }
 h1, h2 {
   font-weight: 700;
@@ -81,6 +81,10 @@ section {
 }
 section p{
   color: white;
+}
+.moreclips {
+  color: #0f5c5c;
+  text-decoration-line: underline;
 }
 a {
   text-decoration: none;
