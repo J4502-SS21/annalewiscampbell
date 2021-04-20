@@ -87,6 +87,10 @@ a {
   color: white;
 }
 .moreclips {
+  color: #0f5c5c;
+  text-decoration-line: underline;
+}
+.download {
   background-color: #0f5c5c;
   text-decoration-line: underline;
 }
